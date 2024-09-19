@@ -1,2 +1,2 @@
-Mobile - 1111111111
-Pin - 1234
+Mobile Number - 1111111111
+Pin Number - 1234

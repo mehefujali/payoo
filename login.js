@@ -6,7 +6,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
 
       // console.log(mobileNumber, pinNumber);
       if (mobileNumber.value === '8391977901' && pinNumber.value === '1234') {
-            window.location.href = '../home.html'
+            window.location.href = './home.html'
       }
       else {
             document.getElementById('alert-error').classList.remove('hidden')

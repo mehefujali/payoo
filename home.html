@@ -21,18 +21,20 @@
                               <!-- main content  -->
 
 
-                              <div class=" mt-4 w-11/12 mx-auto flex items-center justify-between    ">
+                              <div class=" mt-8 w-11/12 mx-auto flex items-center justify-between    ">
                                     <div class="flex items-center gap-2">
                                           <img class="w-14" src="./images/payoo.png" alt="">
                                           <div>
-                                                <h3 id="available-balance" class=" font-bold text-xl">$45000</h3>
+                                                <h3 class=" font-bold text-xl">$
+                                                      <span id="available-balance">45000</span>
+                                                </h3>
                                                 <p class=" text-sm">Available Balance</p>
                                           </div>
 
                                     </div>
                                     <div>
                                           <h1 id=" log-out"
-                                                class="  rounded border-gray-300 px-2 h-fit p-1 btn-ghost cursor-pointer  flex gap-2">
+                                                class="  rounded-lg border-gray-300 px-2 h-fit p-1 btn-ghost cursor-pointer  flex gap-2">
                                                 <span><i
                                                             class="fa-solid fa-arrow-right-to-bracket rotate-180"></i></span>
                                                 logout
@@ -42,6 +44,50 @@
                               </div>
                               <hr class="border-gray-300 border-[1.5px]  w-full">
 
+                              <div class="w-11/12 mx-auto">
+                                    <div>
+                                          <h1 class=" text-sky-700 font-bold text-xl"><i
+                                                      class="fa-solid fa-fire-flame-curved fa-beat-fade"
+                                                      style="color: #ff0026;"></i>
+                                                Welcome to Payooo!</h1>
+                                          <p class=" text-gray-500 text-sm">Enjoy easy and convenient financial services
+                                                with
+                                                us. Cashout charge is low
+                                                and </p>
+                                    </div>
+                                    <div class=" mt-6 flex justify-between">
+                                          <div
+                                                class=" p-4 flex items-center flex-col border-[#00a560] border-[1.5px] w-5/12 rounded-xl  cursor-pointer">
+                                                <i class="fa-solid fa-wallet text-2xl" style="color: #00b496;"></i>
+                                                <h1 class=" font-bold">Add money</h1>
+                                          </div>
+                                          <div
+                                                class=" cursor-pointer p-4 flex items-center flex-col  border-[#ff6b6b] border-[1.5px] w-5/12  rounded-xl ">
+                                                <i class="fa-solid fa-hand-holding-dollar text-2xl"
+                                                      style="color: #ff6b6b;"></i>
+                                                <h1 class=" font-bold">Cashout</h1>
+                                          </div>
+                                    </div>
+                                    <div class=" mx-auto mt-4">
+                                          <form action="" class="  flex flex-col gap-4">
+                                                <input type="text" placeholder="Add amount"
+                                                      class="input  input-bordered w-full max-w-xs" id="add-amount" />
+                                                <input type="password" placeholder="Pin number"
+                                                      class="input input-bordered w-full max-w-xs" id="pin-number" />
+                                                <button class=" btn bg-[#00a560] text-white  " id="add-money-btn">Add
+                                                      money</button>
+                                          </form>
+                                          <form action="" class="hidden  flex flex-col gap-4">
+                                                <input type="text" placeholder="Add amount"
+                                                      class="input  input-bordered w-full max-w-xs" id="" />
+                                                <input type="password" placeholder="Pin number"
+                                                      class="input input-bordered w-full max-w-xs" id="pin-number" />
+                                                <button class=" btn bg-[#ff6b6b] text-white  "
+                                                      id="add-money-btn">Cashout</button>
+                                          </form>
+                                    </div>
+
+                              </div>
 
 
                         </div>
@@ -49,7 +95,7 @@
             </div>
       </section>
       <!-- scripts  -->
-      <script src="./js/login.js"></script>
+      <script src="./home.js"></script>
 </body>
 
 </html>

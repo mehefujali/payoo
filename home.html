@@ -7,6 +7,7 @@
       <title>Document</title>
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://kit.fontawesome.com/8ddf321cf8.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -16,21 +17,30 @@
             <div class="mockup-phone">
                   <div class="camera"></div>
                   <div class="display">
-                        <div class="artboard artboard-demo phone-1">
+                        <div class="artboard artboard-demo phone-1 bg-blue-100 items-start justify-start">
                               <!-- main content  -->
 
-                              <div class=" mb-6">
-                                    <div role="alert" class="alert alert-error hidden" id="alert-error">
-                                          <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                      d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                          </svg>
-                                          <span>Wrong information</span>
+
+                              <div class=" mt-4 w-11/12 mx-auto flex items-center justify-between    ">
+                                    <div class="flex items-center gap-2">
+                                          <img class="w-14" src="./images/payoo.png" alt="">
+                                          <div>
+                                                <h3 id="available-balance" class=" font-bold text-xl">$45000</h3>
+                                                <p class=" text-sm">Available Balance</p>
+                                          </div>
+
                                     </div>
+                                    <div>
+                                          <h1 id=" log-out"
+                                                class="  rounded border-gray-300 px-2 h-fit p-1 btn-ghost cursor-pointer  flex gap-2">
+                                                <span><i
+                                                            class="fa-solid fa-arrow-right-to-bracket rotate-180"></i></span>
+                                                logout
+                                          </h1>
+                                    </div>
+
                               </div>
-
-
+                              <hr class="border-gray-300 border-[1.5px]  w-full">
 
 
 

@@ -1,6 +1,7 @@
 const addAmount = document.getElementById('add-amount')
 const pinNumber = document.getElementById('pin-number')
 
+// add money 
 
 document.getElementById('add-money-btn').addEventListener('click', function (event) {
       event.preventDefault()
@@ -52,3 +53,6 @@ document.getElementById('pin-number').addEventListener('keyup', function () {
       pinNumber.placeholder = 'Pin number'
 
 })
+
+
+// cash out 
